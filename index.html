@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Live Code Editor</title>
+  </head>
+  <body>
+    <div class="top-bar">
+      <button id="dark-mode-toggle">🌙 Dark Mode</button>
+    </div>
+    <div class="container">
+      <div class="editor">
+        <div class="code">
+          <h3>HTML</h3>
+          <textarea
+            name=""
+            id="html-code"
+            placeholder="Type HTML here"
+          ></textarea>
+        </div>
+        <div class="code">
+          <h3>CSS</h3>
+          <textarea
+            name=""
+            id="css-code"
+            placeholder="Type CSS here"
+          ></textarea>
+        </div>
+        <div class="code">
+          <h3>JavaScript</h3>
+          <textarea
+            name=""
+            id="js-code"
+            placeholder="Type JavaScript here"
+          ></textarea>
+        </div>
+      </div>
+      <div class="output">
+        <iframe
+          src=""
+          frameborder="0"
+          id="output"
+          sandbox="allow-scripts"
+        ></iframe>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
